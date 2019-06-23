@@ -20,19 +20,63 @@ header {
   font-family: 'Space Mono', monospace;
   position: absolute;
   top: 25%;
-  left: 10%;
+  left: 15%;
 }
 
 .welcome__text {
-  color: rgba(251, 255, 2, 0.753);
+  color: rgba(138, 139, 28, 0.753);
   margin: 10px;
 }
 
 .welcome__text-next {
-  color: rgba(255, 0, 0, 0.753);
-  margin: 10px;
+  color: rgba(0, 255, 255, 0.753);
+  margin: 10px 0px 10px 60px;
 }
 
 .welcome__text-next2 {
+  color: rgba(138, 139, 28, 0.753);
+  margin: 10px;
+}
+
+.welcome__text-next3 {
+  margin: 10px 0px 10px 60px;
+  color: rgba(0, 174, 255, 0.753);
+  font-size: 24px;
+}
+
+.pColorChangeWelcome {
+  color: white;
+}
+
+.navigation {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+.navigation__list {
+  list-style: none;
+  color: white;
+  font-family: 'Space Mono', monospace;
+  font-size: 22px;
+}
+
+.navigation__list-about {
+  color: rgba(255, 0, 0, 0.753);
+  margin: 4px;
+}
+
+.navigation__list-project {
   color: rgba(0, 255, 255, 0.753);
+  margin: 4px;
+}
+
+.navigation__list-tech {
+  color: rgba(138, 139, 28, 0.753);
+  margin: 4px;
+}
+
+.navigation__list-contact {
+  color: rgba(0, 174, 255, 0.753);
+  margin: 4px;
 }
