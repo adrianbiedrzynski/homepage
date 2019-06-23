@@ -1,45 +1,38 @@
-/* font-family: 'Montserrat', sans-serif; */
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  width: 80vh;
-  background-color: rgb(78, 182, 182);
-  margin: 0 auto;
-}
-
-header h1 {
-  padding: 20px;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-}
-
-header i {
-  font-size: 46px;
-  position: fixed;
-  top: 2%;
-  right: 7%;
-  cursor: pointer;
+.background__img {
+  background-image: url(/fabian-grohs-653254-unsplash.jpg);
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%, 50%;
 }
 
 header {
-  background-color: blueviolet;
+  background-color: rgba(0, 0, 0, 0.911);
 }
 
-article p {
-  height: 100px;
-  display: block;
-  width: 100%;
-  padding: 12px;
-  overflow: scroll;
+.welcome {
+  font-family: 'Space Mono', monospace;
+  position: absolute;
+  top: 25%;
+  left: 10%;
 }
 
-.articleHeader {
-  color: blueviolet;
-  font-family: 'Montserrat', sans-serif;
-  margin: 20px;
+.welcome__text {
+  color: rgba(251, 255, 2, 0.753);
+  margin: 10px;
+}
+
+.welcome__text-next {
+  color: rgba(255, 0, 0, 0.753);
+  margin: 10px;
+}
+
+.welcome__text-next2 {
+  color: rgba(0, 255, 255, 0.753);
 }
